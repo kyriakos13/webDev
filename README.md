@@ -6,6 +6,18 @@ console.warn(error);
 console.log(p)
 console.dir(p)
 console.log(`${dog.name} is coco`)
+const fancyThings = {
+  car: '🏎️ Ferrari',
+  watch: '⌚ Cartier',
+  clothing: {
+    shoes: '👠 Christian Louboutin',
+    dress: '👗 Versace'
+  },
+  boat: '🛥️ Sunseeker'
+}
+
+console.dir(fancyThings);
+
 ## How web works ?
 
 Clients and servers
