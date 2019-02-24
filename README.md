@@ -5,6 +5,7 @@ console.error('shit');
 console.warn(error);
 console.log(p)
 console.dir(p)
+console.log('${dog.name} is coco')
 ## How web works ?
 
 Clients and servers
