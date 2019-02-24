@@ -24,6 +24,9 @@ fetch('https://api.github.com/users/kyriakos13')
   .then(d => d.json())
   .then(console.log);
 console.timeEnd('fetching data');
+
+var dog = {name:'dogo',weight:'10kg',breed:'pomerania'}
+console.table(dog)
 ## How web works ?
 
 Clients and servers
