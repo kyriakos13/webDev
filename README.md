@@ -1,6 +1,8 @@
 # Web Developer Q&A
 console.log('hello i am a %s','💩')
 console.log('%c i am styled','font-size:50px; font-weight:bold;')
+console.error('shit');
+console.warn(error);
 ## How web works ?
 
 Clients and servers
