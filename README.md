@@ -18,6 +18,12 @@ const fancyThings = {
 
 console.dir(fancyThings);
 
+
+console.time('fetching data');
+fetch('https://api.github.com/users/kyriakos13')
+  .then(d => d.json())
+  .then(console.log);
+console.timeEnd('fetching data');
 ## How web works ?
 
 Clients and servers
