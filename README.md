@@ -1,5 +1,5 @@
 # Web Developer Q&A
-
+console.log('hello i am a %s','💩')
 ## How web works ?
 
 Clients and servers
